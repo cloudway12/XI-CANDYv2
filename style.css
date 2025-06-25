@@ -1,0 +1,162 @@
+. *body{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    justify-content: center;
+    text-align: center;
+    margin: 0%;
+    flex-direction: column;
+  background-image: url(WhatsApp\ Image\ 2025-05-29\ at\ 21.13.02\ \(1\).jpeg);
+      background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: auto;
+  text-align: center;
+  flex: 1;
+}
+
+.h1-header{
+     color: aliceblue;
+       font-size: 50px;
+      list-style-type: disc;
+      color: black;
+       text-align: center;
+}
+
+.container-foto{
+        display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.container-foto a{
+     text-decoration: none;
+ display: block;
+ position: relative;
+}
+
+.h1-foto{
+     color: aliceblue;
+       margin-top: 70px;
+       text-align: center;
+}
+
+.container-foto img{
+    width: 200px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px rgb(0, 0, 0.2);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+      cursor: pointer;
+}
+
+
+.container-foto:hover{
+     transform: scale(1.1);
+}
+
+.container-video{
+    text-align: center;
+  margin: 20px auto;
+}
+
+.h1-video{
+     color: aliceblue;
+       font-size: 50px;
+       padding-top: 70px;
+       text-align: center;
+}
+
+.container-video video{
+     border-radius: 8px;
+   box-shadow: 0 2px 6px rgb(0, 0, 0.3);
+}
+
+.h1-jadwal{
+    color: aliceblue;
+      display: flex;
+    align-items: flex-start;
+}
+
+.container-footer{
+        height: 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p-footer{
+    color: aliceblue;
+     display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-size: larger;
+}
+
+.h1-footer{
+    color: aliceblue;
+       font-size: 50px;
+       padding-top: 90px;
+       text-align: center; 
+}
+
+.comment-selection{
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1);
+}
+
+.comment-selection h2{
+    text-align: center;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid  #ccc ;
+}
+
+button{
+      padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
+    background-color:  #0056b3;
+}
+
+.comment-display{
+    margin-top: 20px;
+}
+.comment{
+     background: #e9ecef;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
